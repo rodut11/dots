@@ -1,0 +1,38 @@
+[global]
+    frame_width = 0
+    corner_radius = 10 
+    monitor = 0  # 0 = primary monitor, 1 = second, etc.
+    # Geometry: X,Y
+    geometry = "300x80+10+10"
+    # Rounded corners radius
+    corner_radius = 10
+    # Padding inside notifications
+    padding = 12
+    # Timeout (ms)
+    timeout = 5000
+    # Font
+    font = "CaskaydiaCove Nerd Font Mono 12"
+    # Transparency
+    transparency = 10
+    # Background icon
+    frame_color = "#292728"
+    # Number of notifications shown at once
+    max_visible = 5
+    # Ignore duplicates
+    ignore_duplicates = true
+
+[urgency_low]
+    background = "#a7a5a6"
+    foreground = "#191718"
+    frame_color = "#7b797a"
+
+[urgency_normal]
+    background = "#7b797a"
+    foreground = "#f0f0f0"
+    frame_color = "#4e4c4d"
+
+[urgency_critical]
+    background = "#292728"
+    foreground = "#f0f0f0"
+    frame_color = "#151314"
+

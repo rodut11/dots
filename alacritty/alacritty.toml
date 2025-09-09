@@ -1,0 +1,22 @@
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["-l"]
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "FiraCode"
+style = "Regular"
+
+[window]
+opacity = 0.5
+
+[window.padding]
+x = 15
+y = 15
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
